@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Fuse from 'fuse.js';
 import data from './data/amps.json';
+import wikiStatus from './data/wiki-status.json';
 import './App.css';
 
 type Amp = {
@@ -500,10 +501,19 @@ export default function App() {
         </div>
         <div className="foot-row">
           <span className="foot-label">Live ref</span>
-          Latest Axe-Fx III firmware: <em>32.04 (Cygnus X-3)</em> ·
-          {' '}
+          Wiki sync: <em>{wikiStatus.wikiCount}</em> amps on wiki ·{' '}
+          <em>{wikiStatus.guideCount}</em> in this guide ·{' '}
+          {wikiStatus.wikiOnly.length > 0 || wikiStatus.guideOnly.length > 0 ? (
+            <em>
+              {wikiStatus.wikiOnly.length} new on wiki ·{' '}
+              {wikiStatus.guideOnly.length} guide-only
+            </em>
+          ) : (
+            <em>in sync</em>
+          )}
+          {' · '}
           <a
-            href="https://wiki.fractalaudio.com/wiki/index.php?title=Amp_models_list"
+            href={wikiStatus.source}
             target="_blank"
             rel="noreferrer"
           >
