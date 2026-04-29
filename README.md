@@ -1,73 +1,83 @@
-# React + TypeScript + Vite
+# Ampdex — Searchable Axe-Fx Amp Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A type-driven, keyboard-first reference for the **331 amplifier models** in
+**Fractal Audio Axe-Fx III, FM9, and FM3**. Search by amp name, player,
+tone, or tube. Find what to load on your unit — fast.
 
-Currently, two official plugins are available:
+**Live:** https://immedio.github.io/ampdex/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What it is
 
-## React Compiler
+A static web app that wraps **Clayton Welch's *Amplifier Library Guide v1***
+(an Axe-Fx III reference) in a fuzzy-searchable interface, with per-amp
+"how to load on your device" instructions and FM3 feature-caveat detection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Search** by amp name (`5150`, `plexi`), player (`hendrix`, `clapton`),
+  tone (`clean`, `brown`), tube (`6L6`, `EL34`), or amp number (`026`).
+- **Brand aliases** — type `marshall`, `mesa`, `vox ac30`, `jcm800`, etc.
+  and reach the right model in Welch's `BRIT/USA/CLASS-A` naming.
+- **Device gate** — pick Axe-Fx III / FM9 / FM3 once; the load-hint adapts.
+- **FM3 caveats** flagged on amps whose voicing relies on Bias Tremolo or
+  Input Dynamics (not available in the FM3 amp block).
+- **Heard on / associated** callout pulls famous-player & song mentions
+  from Welch's bullets so iconic uses surface above the fold.
 
-## Expanding the ESLint configuration
+## Why
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The Welch PDF is excellent reference material but slow to navigate.
+Yek's guide is more thorough but Word-format. The Fractal Wiki is the
+authoritative live source. Ampdex bundles Welch's compiled text into a
+search interface so you can answer "**what amp do I pick to get *that*
+tone?**" in a few keystrokes.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Compatibility
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+| Device | Amp models | Notes |
+|---|---|---|
+| Axe-Fx III | All 331 | Source guide written for this unit. |
+| FM9 | All 331 | Identical Cygnus engine. Names map 1:1. |
+| FM3 | All 331 | Same engine. Per-amp warnings for Bias Tremolo / Input Dynamics. |
+| Axe-Fx II / AX8 | n/a | Older generation, different amp list. Use Yek's older guide. |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Latest Axe-Fx III firmware referenced: **32.04 (Cygnus X-3)**.
+For the canonical, live amp list, see the
+[Fractal Audio Wiki — Amp models list](https://wiki.fractalaudio.com/wiki/index.php?title=Amp_models_list).
+
+## Stack
+
+- React 19 + TypeScript + Vite
+- [Fuse.js](https://www.fusejs.io/) for fuzzy matching
+- [Geist Sans + Geist Mono](https://vercel.com/font) (Vercel)
+- Static deploy → GitHub Pages
+
+## Local development
+
+```bash
+npm install
+npm run dev          # http://localhost:5173/ampdex/
+npm run build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Data source & credits
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Clayton Welch** — *Amplifier Library Guide v1* (compiled from Yek's
+  guide + Fractal Wiki + FAS forum + Cliff's tech notes).
+- **Fractal Audio Systems** — Axe-Fx, FM9, FM3 hardware and Cygnus amp
+  modeling. Axe-Fx™ is a registered trademark of Fractal Audio Systems.
+  Ampdex is **not affiliated with FAS**.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Support
+
+If this saved you time on a session, you can
+[buy me a coffee](https://buymeacoffee.com/rinkashimikito).
+
+## License
+
+Code: MIT. Underlying amp content is Welch's compiled work and the original
+manufacturers'; no implied license over the source material.
+
+---
+
+**Tags:** `axe-fx` `axe-fx-iii` `fm3` `fm9` `fractal-audio` `cygnus`
+`guitar-amps` `amp-modeling` `amp-library` `tone-search` `react` `vite`
