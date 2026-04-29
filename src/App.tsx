@@ -587,6 +587,14 @@ export default function App() {
             buy me a coffee
           </a>
           <span className="foot-sep">·</span>
+          <a
+            href="https://github.com/sponsors/rinkashimikito"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github sponsors
+          </a>
+          <span className="foot-sep">·</span>
           <label className="affiliate-toggle">
             <input
               type="checkbox"
