@@ -1,8 +1,1334 @@
 {
-  "fetchedAt": "2026-04-29T19:19:43+00:00",
+  "fetchedAt": "2026-05-01T08:48:18+00:00",
   "source": "https://wiki.fractalaudio.com/wiki/index.php?title=Amp_models_list",
   "guideCount": 331,
   "wikiCount": 331,
   "wikiOnly": [],
-  "guideOnly": []
+  "guideOnly": [],
+  "entries": {
+    "5F1 TWEED CHAMPLIFIER": {
+      "anchor": "5F1_TWEED_CHAMPLIFIER_(narrow-panel_Fender_Tweed_Champ,_5F1)",
+      "description": "narrow-panel Fender Tweed Champ, 5F1"
+    },
+    "5F1 TWEED EC CHAMPLIFIER": {
+      "anchor": "5F1_TWEED_EC_CHAMPLIFIER_(2011_Fender_EC_Vibro-Champ)",
+      "description": "2011 Fender EC Vibro-Champ"
+    },
+    "5F8 TWEED BRIGHT": {
+      "anchor": "5F8_TWEED_BRIGHT_(Keith_Urban's_1959_narrow-panel_high-power_Fender_Tweed_Twin,_5F8)",
+      "description": "Keith Urban's 1959 narrow-panel high-power Fender Tweed Twin, 5F8"
+    },
+    "5F8 TWEED JUMPED": {
+      "anchor": "5F8_TWEED_JUMPED",
+      "description": ""
+    },
+    "5F8 TWEED NORMAL": {
+      "anchor": "5F8_TWEED_NORMAL",
+      "description": ""
+    },
+    "6G4 SUPER": {
+      "anchor": "6G4_SUPER_(1960_brownface_Fender_Super,_6G4)",
+      "description": "1960 brownface Fender Super, 6G4"
+    },
+    "6G12 CONCERT": {
+      "anchor": "6G12_CONCERT_(1960_brownface_Fender_Concert,_6G12)",
+      "description": "1960 brownface Fender Concert, 6G12"
+    },
+    "59 BASSGUY BRIGHT": {
+      "anchor": "59_BASSGUY_BRIGHT_(1959_narrow-panel_Fender_Tweed_Bassman,_5F6-A)",
+      "description": "1959 narrow-panel Fender Tweed Bassman, 5F6-A"
+    },
+    "59 BASSGUY JUMPED": {
+      "anchor": "59_BASSGUY_JUMPED",
+      "description": ""
+    },
+    "59 BASSGUY NORMAL": {
+      "anchor": "59_BASSGUY_NORMAL",
+      "description": ""
+    },
+    "59 BASSGUY RI JUMPED": {
+      "anchor": "59_BASSGUY_RI_JUMPED_(Fender_59_Bassman_LTD_Vintage_Reissue)",
+      "description": "Fender 59 Bassman LTD Vintage Reissue"
+    },
+    "65 BASSGUY BASS": {
+      "anchor": "65_BASSGUY_BASS_(1965_blackface_Fender_Bassman_head,_AB165)",
+      "description": "1965 blackface Fender Bassman head, AB165"
+    },
+    "65 BASSGUY NORMAL": {
+      "anchor": "65_BASSGUY_NORMAL",
+      "description": ""
+    },
+    "1959SLP JUMPED": {
+      "anchor": "1959SLP_JUMPED_(100W_Marshall_Super_Lead_Plexi_1959_reissue)",
+      "description": "100W Marshall Super Lead Plexi 1959 reissue"
+    },
+    "1959SLP NORMAL": {
+      "anchor": "1959SLP_NORMAL",
+      "description": ""
+    },
+    "1959SLP TREBLE": {
+      "anchor": "1959SLP_TREBLE",
+      "description": ""
+    },
+    "1987X JUMPED": {
+      "anchor": "1987X_JUMPED_(50W_Marshall_1987X_reissue)",
+      "description": "50W Marshall 1987X reissue"
+    },
+    "1987X NORMAL": {
+      "anchor": "1987X_NORMAL",
+      "description": ""
+    },
+    "1987X TREBLE": {
+      "anchor": "1987X_TREBLE",
+      "description": ""
+    },
+    "5153 100W BLUE": {
+      "anchor": "5153_100W_BLUE_(EVH_5150-III)",
+      "description": "EVH 5150-III"
+    },
+    "5153 100W GREEN": {
+      "anchor": "5153_100W_GREEN",
+      "description": ""
+    },
+    "5153 100W RED": {
+      "anchor": "5153_100W_RED",
+      "description": ""
+    },
+    "5153 100W STEALTH BLUE": {
+      "anchor": "5153_100W_STEALTH_BLUE_(EVH_5150III_100S_100W)",
+      "description": "EVH 5150III 100S 100W"
+    },
+    "5153 100W STEALTH GREEN": {
+      "anchor": "5153_100W_STEALTH_GREEN",
+      "description": ""
+    },
+    "5153 100W STEALTH RED": {
+      "anchor": "5153_100W_STEALTH_RED",
+      "description": ""
+    },
+    "5153 50W BLUE": {
+      "anchor": "5153_50W_BLUE",
+      "description": ""
+    },
+    "AC-20 12AX7 BASS": {
+      "anchor": "AC-20_12AX7_BASS_(Morgan_AC20_Deluxe)",
+      "description": "Morgan AC20 Deluxe"
+    },
+    "AC-20 12AX7 TREBLE": {
+      "anchor": "AC-20_12AX7_TREBLE",
+      "description": ""
+    },
+    "AC-20 EF86 BASS": {
+      "anchor": "AC-20_EF86_BASS",
+      "description": ""
+    },
+    "AC-20 EF86 TREBLE": {
+      "anchor": "AC-20_EF86_TREBLE",
+      "description": ""
+    },
+    "ANGLE SEVERE 1": {
+      "anchor": "ANGLE_SEVERE_1_(Engl_Savage_120)",
+      "description": "Engl Savage 120"
+    },
+    "ANGLE SEVERE 2": {
+      "anchor": "ANGLE_SEVERE_2",
+      "description": ""
+    },
+    "ARCHEAN": {
+      "anchor": "ARCHEAN_(100W_PRS_Archon)",
+      "description": "100W PRS Archon"
+    },
+    "ARCHEAN BRIGHT": {
+      "anchor": "ARCHEAN_BRIGHT",
+      "description": ""
+    },
+    "ARCHEAN CLEAN": {
+      "anchor": "ARCHEAN_CLEAN",
+      "description": ""
+    },
+    "ATOMICA HIGH": {
+      "anchor": "ATOMICA_HIGH_(Cameron_Atomica)",
+      "description": "Cameron Atomica"
+    },
+    "ATOMICA LOW": {
+      "anchor": "ATOMICA_LOW",
+      "description": ""
+    },
+    "BAND-COMMANDER": {
+      "anchor": "BAND-COMMANDER_(1968_silverface/blackface_Fender_Bandmaster_head,_AB763)",
+      "description": "1968 silverface/blackface Fender Bandmaster head, AB763"
+    },
+    "BIG HAIR": {
+      "anchor": "BIG_HAIR_(custom_model)",
+      "description": "custom model"
+    },
+    "BLANKENSHIP LEEDS": {
+      "anchor": "BLANKENSHIP_LEEDS_(Dweezil_Zappa's_Blankenship_Leeds_21)",
+      "description": "Dweezil Zappa's Blankenship Leeds 21"
+    },
+    "BLUDOJAI CLEAN": {
+      "anchor": "BLUDOJAI_CLEAN_(Bludotone_Ojai)",
+      "description": "Bludotone Ojai"
+    },
+    "BLUDOJAI LEAD": {
+      "anchor": "BLUDOJAI_LEAD",
+      "description": ""
+    },
+    "BLUDOJAI LEAD PAB": {
+      "anchor": "BLUDOJAI_LEAD_PAB",
+      "description": ""
+    },
+    "BOGFISH BROWN": {
+      "anchor": "BOGFISH_BROWN_(Bogner_Fish_preamp)",
+      "description": "Bogner Fish preamp"
+    },
+    "BOGFISH STRATO": {
+      "anchor": "BOGFISH_STRATO",
+      "description": ""
+    },
+    "BRIT 800 2204 HIGH": {
+      "anchor": "BRIT_800_2204_HIGH_(50W_Marshall_JCM_800_2204)",
+      "description": "50W Marshall JCM 800 2204"
+    },
+    "BRIT 800 2204 LOW": {
+      "anchor": "BRIT_800_2204_LOW",
+      "description": ""
+    },
+    "BRIT 800 2203 HIGH": {
+      "anchor": "BRIT_800_2203_HIGH_(100W_Marshall_JCM_800_2203_JMP)",
+      "description": "100W Marshall JCM 800 2203 JMP"
+    },
+    "BRIT 800 2203 LOW": {
+      "anchor": "BRIT_800_2203_LOW",
+      "description": ""
+    },
+    "BRIT 800 #34": {
+      "anchor": "BRIT_800_#34_(50W_Marshall_JCM_800_with_Santiago_#34_modifications)",
+      "description": "50W Marshall JCM 800 with Santiago #34 modifications"
+    },
+    "BRIT 800 MOD": {
+      "anchor": "BRIT_800_MOD_(50W_Marshall_JCM_800_with_modifications)",
+      "description": "50W Marshall JCM 800 with modifications"
+    },
+    "BRIT 800 STUDIO 20": {
+      "anchor": "BRIT_800_STUDIO_20_(Marshall_Studio_Classic_SC20H)",
+      "description": "Marshall Studio Classic SC20H"
+    },
+    "BRIT AFS100 1": {
+      "anchor": "BRIT_AFS100_1_(Marshall_AFD100SCE)",
+      "description": "Marshall AFD100SCE"
+    },
+    "BRIT AFS100 2": {
+      "anchor": "BRIT_AFS100_2",
+      "description": ""
+    },
+    "BRIT BROWN": {
+      "anchor": "BRIT_BROWN_(custom_model:_Plexi_&quot;Brown_Sound&quot;)",
+      "description": "custom model: Plexi \"Brown Sound\""
+    },
+    "BRIT JM45": {
+      "anchor": "BRIT_JM45_(Marshall_JTM_45)",
+      "description": "Marshall JTM 45"
+    },
+    "BRIT JM45 JUMPED": {
+      "anchor": "BRIT_JM45_JUMPED",
+      "description": ""
+    },
+    "BRIT JVM OD1 GREEN": {
+      "anchor": "BRIT_JVM_OD1_GREEN_(Marshall_JVM410H)",
+      "description": "Marshall JVM410H"
+    },
+    "BRIT JVM OD1 ORANGE": {
+      "anchor": "BRIT_JVM_OD1_ORANGE",
+      "description": ""
+    },
+    "BRIT JVM OD1 RED": {
+      "anchor": "BRIT_JVM_OD1_RED",
+      "description": ""
+    },
+    "BRIT JVM OD2 GREEN": {
+      "anchor": "BRIT_JVM_OD2_GREEN",
+      "description": ""
+    },
+    "BRIT JVM OD2 ORANGE": {
+      "anchor": "BRIT_JVM_OD2_ORANGE",
+      "description": ""
+    },
+    "BRIT JVM OD2 RED": {
+      "anchor": "BRIT_JVM_OD2_RED",
+      "description": ""
+    },
+    "BRIT PRE": {
+      "anchor": "BRIT_PRE_(Marshall_JMP-1_preamp)",
+      "description": "Marshall JMP-1 preamp"
+    },
+    "BRIT SILVER": {
+      "anchor": "BRIT_SILVER_(Marshall_Silver_Jubilee,_previously:_Lerxst_Omega)",
+      "description": "Marshall Silver Jubilee, previously: Lerxst Omega"
+    },
+    "BRIT SUPER": {
+      "anchor": "BRIT_SUPER_(Marshall_AFD100_schematics)",
+      "description": "Marshall AFD100 schematics"
+    },
+    "BUDDAH DUOMASTER": {
+      "anchor": "BUDDAH_DUOMASTER_(Budda_Twinmaster)",
+      "description": "Budda Twinmaster"
+    },
+    "CA3+ CLEAN": {
+      "anchor": "CA3+_CLEAN_(Custom_Audio_Amplifiers_3+_SE_preamp)",
+      "description": "Custom Audio Amplifiers 3+ SE preamp"
+    },
+    "CA3+ LEAD": {
+      "anchor": "CA3+_LEAD",
+      "description": ""
+    },
+    "CA3+ RHYTHM": {
+      "anchor": "CA3+_RHYTHM",
+      "description": ""
+    },
+    "CAMERON CCV 1A": {
+      "anchor": "CAMERON_CCV_1A_(Cameron_CCV-100)",
+      "description": "Cameron CCV-100"
+    },
+    "CAMERON CCV 1B": {
+      "anchor": "CAMERON_CCV_1B",
+      "description": ""
+    },
+    "CAMERON CCV 2A": {
+      "anchor": "CAMERON_CCV_2A",
+      "description": ""
+    },
+    "CAMERON CCV 2B": {
+      "anchor": "CAMERON_CCV_2B",
+      "description": ""
+    },
+    "CAMERON CCV 2C": {
+      "anchor": "CAMERON_CCV_2C",
+      "description": ""
+    },
+    "CAMERON CCV 2D": {
+      "anchor": "CAMERON_CCV_2D",
+      "description": ""
+    },
+    "CAPT HOOK 1A": {
+      "anchor": "CAPT_HOOK_1A_(Hook_Captain_34)",
+      "description": "Hook Captain 34"
+    },
+    "CAPT HOOK 1B": {
+      "anchor": "CAPT_HOOK_1B",
+      "description": ""
+    },
+    "CAPT HOOK 2A": {
+      "anchor": "CAPT_HOOK_2A",
+      "description": ""
+    },
+    "CAPT HOOK 2B": {
+      "anchor": "CAPT_HOOK_2B",
+      "description": ""
+    },
+    "CAPT HOOK 3A": {
+      "anchor": "CAPT_HOOK_3A",
+      "description": ""
+    },
+    "CAPT HOOK 3B": {
+      "anchor": "CAPT_HOOK_3B",
+      "description": ""
+    },
+    "CAR AMBLER": {
+      "anchor": "CAR_AMBLER_(Carr_Rambler)",
+      "description": "Carr Rambler"
+    },
+    "CAROL-ANN OD-2": {
+      "anchor": "CAROL-ANN_OD-2_(Carol-Ann_OD-2)",
+      "description": "Carol-Ann OD-2"
+    },
+    "CAROL-ANN TRIPTIK CLASSIC": {
+      "anchor": "CAROL-ANN_TRIPTIK_CLASSIC_(Carol-Ann_Triptik)",
+      "description": "Carol-Ann Triptik"
+    },
+    "CAROL-ANN TRIPTIK CLEAN": {
+      "anchor": "CAROL-ANN_TRIPTIK_CLEAN",
+      "description": ""
+    },
+    "CAROL-ANN TRIPTIK MODERN": {
+      "anchor": "CAROL-ANN_TRIPTIK_MODERN",
+      "description": ""
+    },
+    "CAROL-ANN TUCANA CLEAN": {
+      "anchor": "CAROL-ANN_TUCANA_CLEAN_(Carol-Ann_Tucana_3)",
+      "description": "Carol-Ann Tucana 3"
+    },
+    "CAROL-ANN TUCANA LEAD": {
+      "anchor": "CAROL-ANN_TUCANA_LEAD",
+      "description": ""
+    },
+    "CITRUS A30 CLEAN": {
+      "anchor": "CITRUS_A30_CLEAN_(Orange_AD30HTC)",
+      "description": "Orange AD30HTC"
+    },
+    "CITRUS A30 DIRTY": {
+      "anchor": "CITRUS_A30_DIRTY",
+      "description": ""
+    },
+    "CITRUS BASS 200": {
+      "anchor": "CITRUS_BASS_200_(Orange_AD200B_bass_amp)",
+      "description": "Orange AD200B bass amp"
+    },
+    "CITRUS RV50": {
+      "anchor": "CITRUS_RV50_(Orange_Rockerverb_50_MK_II)",
+      "description": "Orange Rockerverb 50 MK II"
+    },
+    "CITRUS TERRIER": {
+      "anchor": "CITRUS_TERRIER_(Orange_Tiny_Terror)",
+      "description": "Orange Tiny Terror"
+    },
+    "CLASS-A 15W TB": {
+      "anchor": "CLASS-A_15W_TB_(Vox_AC15_Top_Boost)",
+      "description": "Vox AC15 Top Boost"
+    },
+    "CLASS-A 30W": {
+      "anchor": "CLASS-A_30W_(Vox_AC30)",
+      "description": "Vox AC30"
+    },
+    "CLASS-A 30W BRIGHT": {
+      "anchor": "CLASS-A_30W_BRIGHT",
+      "description": ""
+    },
+    "CLASS-A 30W BRILLIANT": {
+      "anchor": "CLASS-A_30W_BRILLIANT",
+      "description": ""
+    },
+    "CLASS-A 30W HOT": {
+      "anchor": "CLASS-A_30W_HOT",
+      "description": ""
+    },
+    "CLASS-A 30W TB": {
+      "anchor": "CLASS-A_30W_TB",
+      "description": ""
+    },
+    "COMET 60": {
+      "anchor": "COMET_60_(Komet_60)",
+      "description": "Komet 60"
+    },
+    "COMET CONCOURSE": {
+      "anchor": "COMET_CONCOURSE_(Komet_Concorde)",
+      "description": "Komet Concorde"
+    },
+    "CORNFED M50": {
+      "anchor": "CORNFED_M50_(Cornford_MK50_II)",
+      "description": "Cornford MK50 II"
+    },
+    "DAS METALL": {
+      "anchor": "DAS_METALL_(Diezel_VH4_schematics)",
+      "description": "Diezel VH4 schematics"
+    },
+    "DELUXE 6G3": {
+      "anchor": "DELUXE_6G3_(brownface_Fender_Deluxe,_6G3)",
+      "description": "brownface Fender Deluxe, 6G3"
+    },
+    "DELUXE TWEED": {
+      "anchor": "DELUXE_TWEED_(1957_narrow-panel_Fender_Tweed_Deluxe,_5E3)",
+      "description": "1957 narrow-panel Fender Tweed Deluxe, 5E3"
+    },
+    "DELUXE TWEED JUMPED": {
+      "anchor": "DELUXE_TWEED_JUMPED",
+      "description": ""
+    },
+    "DELUXE VERB NORMAL": {
+      "anchor": "DELUXE_VERB_NORMAL_(1965_blackface_Fender_Deluxe_Reverb,_AB763)",
+      "description": "1965 blackface Fender Deluxe Reverb, AB763"
+    },
+    "DELUXE VERB VIBRATO": {
+      "anchor": "DELUXE_VERB_VIBRATO",
+      "description": ""
+    },
+    "DIAMANTE FIRE": {
+      "anchor": "DIAMANTE_FIRE_(22W_Diamond_Del_Fuego)",
+      "description": "22W Diamond Del Fuego"
+    },
+    "DIRTY SHIRLEY 1": {
+      "anchor": "DIRTY_SHIRLEY_1_(40W_Friedman_Dirty_Shirley)",
+      "description": "40W Friedman Dirty Shirley"
+    },
+    "DIRTY SHIRLEY 2": {
+      "anchor": "DIRTY_SHIRLEY_2",
+      "description": ""
+    },
+    "DIV/13 CJ": {
+      "anchor": "DIV/13_CJ_(Divided_By_13_CJ_11)",
+      "description": "Divided By 13 CJ 11"
+    },
+    "DIV/13 CJ BOOST": {
+      "anchor": "DIV/13_CJ_BOOST",
+      "description": ""
+    },
+    "DIV/13 FT37 HIGH": {
+      "anchor": "DIV/13_FT37_HIGH_(Divided_By_13_FTR_37)",
+      "description": "Divided By 13 FTR 37"
+    },
+    "DIV/13 FT37 LOW": {
+      "anchor": "DIV/13_FT37_LOW",
+      "description": ""
+    },
+    "DIZZY V4 BLUE 2": {
+      "anchor": "DIZZY_V4_BLUE_2_(Diezel_VH4)",
+      "description": "Diezel VH4"
+    },
+    "DIZZY V4 BLUE 3": {
+      "anchor": "DIZZY_V4_BLUE_3",
+      "description": ""
+    },
+    "DIZZY V4 BLUE 4": {
+      "anchor": "DIZZY_V4_BLUE_4",
+      "description": ""
+    },
+    "DIZZY V4 SILVER 2": {
+      "anchor": "DIZZY_V4_SILVER_2",
+      "description": ""
+    },
+    "DIZZY V4 SILVER 3": {
+      "anchor": "DIZZY_V4_SILVER_3",
+      "description": ""
+    },
+    "DIZZY V4 SILVER 4": {
+      "anchor": "DIZZY_V4_SILVER_4",
+      "description": ""
+    },
+    "DOUBLE VERB NORMAL": {
+      "anchor": "DOUBLE_VERB_NORMAL_(1966_blackface_Fender_Twin_Reverb)",
+      "description": "1966 blackface Fender Twin Reverb"
+    },
+    "DOUBLE VERB SILVERFACE": {
+      "anchor": "DOUBLE_VERB_SILVERFACE_(1971_silverface_Fender_Twin_Reverb)",
+      "description": "1971 silverface Fender Twin Reverb"
+    },
+    "DOUBLE VERB VIBRATO": {
+      "anchor": "DOUBLE_VERB_VIBRATO_(1966_blackface_Fender_Twin_Reverb)",
+      "description": "1966 blackface Fender Twin Reverb"
+    },
+    "DWEEZIL'S BASSGUY": {
+      "anchor": "DWEEZIL'S_BASSGUY_(Dweezil_Zappa's_1965_blackface_Fender_Bassman,_AB165)",
+      "description": "Dweezil Zappa's 1965 blackface Fender Bassman, AB165"
+    },
+    "ENERGYBALL": {
+      "anchor": "ENERGYBALL_(Engl_Powerball)",
+      "description": "Engl Powerball"
+    },
+    "EURO BLUE": {
+      "anchor": "EURO_BLUE_(Bogner_Ecstasy_20th_Anniversary)",
+      "description": "Bogner Ecstasy 20th Anniversary"
+    },
+    "EURO BLUE MODERN": {
+      "anchor": "EURO_BLUE_MODERN",
+      "description": ""
+    },
+    "EURO RED": {
+      "anchor": "EURO_RED",
+      "description": ""
+    },
+    "EURO RED MODERN": {
+      "anchor": "EURO_RED_MODERN",
+      "description": ""
+    },
+    "EURO UBER": {
+      "anchor": "EURO_UBER_(Bogner_Uberschall)",
+      "description": "Bogner Uberschall"
+    },
+    "FAS 6160": {
+      "anchor": "FAS_6160_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS BASS": {
+      "anchor": "FAS_BASS_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS BROOTALZ": {
+      "anchor": "FAS_BROOTALZ_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS BROWN": {
+      "anchor": "FAS_BROWN_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS BUTTERY": {
+      "anchor": "FAS_BUTTERY_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS CLASS-A": {
+      "anchor": "FAS_CLASS-A_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS CRUNCH": {
+      "anchor": "FAS_CRUNCH_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS EXPRESS": {
+      "anchor": "FAS_EXPRESS_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS HOT ROD": {
+      "anchor": "FAS_HOT_ROD_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS LEAD 1": {
+      "anchor": "FAS_LEAD_1_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS LEAD 2": {
+      "anchor": "FAS_LEAD_2_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS MODERN": {
+      "anchor": "FAS_MODERN_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS MODERN II": {
+      "anchor": "FAS_MODERN_II_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS MODERN III": {
+      "anchor": "FAS_MODERN_III_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS RHYTHM": {
+      "anchor": "FAS_RHYTHM_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS SKULL CRUSHER": {
+      "anchor": "FAS_SKULL_CRUSHER_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS STEALTH BLUE": {
+      "anchor": "FAS_STEALTH_BLUE_(custom_model)",
+      "description": "custom model"
+    },
+    "FAS WRECK": {
+      "anchor": "FAS_WRECK_(custom_model)",
+      "description": "custom model"
+    },
+    "FOX ODS": {
+      "anchor": "FOX_ODS_(Fuchs_Overdrive_Supreme_50)",
+      "description": "Fuchs Overdrive Supreme 50"
+    },
+    "FOX ODS DEEP": {
+      "anchor": "FOX_ODS_DEEP",
+      "description": ""
+    },
+    "FRIEDMAN BE 2010": {
+      "anchor": "FRIEDMAN_BE_2010_(Friedman_BE)",
+      "description": "Friedman BE"
+    },
+    "FRIEDMAN BE C45": {
+      "anchor": "FRIEDMAN_BE_C45",
+      "description": ""
+    },
+    "FRIEDMAN BE V1": {
+      "anchor": "FRIEDMAN_BE_V1",
+      "description": ""
+    },
+    "FRIEDMAN BE V1 FAT": {
+      "anchor": "FRIEDMAN_BE_V1_FAT",
+      "description": ""
+    },
+    "FRIEDMAN BE V2": {
+      "anchor": "FRIEDMAN_BE_V2",
+      "description": ""
+    },
+    "FRIEDMAN BE V3": {
+      "anchor": "FRIEDMAN_BE_V3",
+      "description": ""
+    },
+    "FRIEDMAN HBE 2010": {
+      "anchor": "FRIEDMAN_HBE_2010",
+      "description": ""
+    },
+    "FRIEDMAN HBE C45": {
+      "anchor": "FRIEDMAN_HBE_C45",
+      "description": ""
+    },
+    "FRIEDMAN HBE V1": {
+      "anchor": "FRIEDMAN_HBE_V1",
+      "description": ""
+    },
+    "FRIEDMAN HBE V1 FAT": {
+      "anchor": "FRIEDMAN_HBE_V1_FAT",
+      "description": ""
+    },
+    "FRIEDMAN HBE V2": {
+      "anchor": "FRIEDMAN_HBE_V2",
+      "description": ""
+    },
+    "FRIEDMAN HBE V3": {
+      "anchor": "FRIEDMAN_HBE_V3",
+      "description": ""
+    },
+    "FRIEDMAN SMALL BOX": {
+      "anchor": "FRIEDMAN_SMALL_BOX_(Friedman_Smallbox)",
+      "description": "Friedman Smallbox"
+    },
+    "FRYETTE D60 LESS": {
+      "anchor": "FRYETTE_D60_LESS_(Fryette_Deliverance_60_Series_II)",
+      "description": "Fryette Deliverance 60 Series II"
+    },
+    "FRYETTE D60 MORE": {
+      "anchor": "FRYETTE_D60_MORE",
+      "description": ""
+    },
+    "GIBTONE SCOUT": {
+      "anchor": "GIBTONE_SCOUT_(Gibson_GA17RVT_Scout)",
+      "description": "Gibson GA17RVT Scout"
+    },
+    "HERBIE CH2+": {
+      "anchor": "HERBIE_CH2+_(Diezel_Herbert)",
+      "description": "Diezel Herbert"
+    },
+    "HERBIE CH2-": {
+      "anchor": "HERBIE_CH2-",
+      "description": ""
+    },
+    "HERBIE CH3": {
+      "anchor": "HERBIE_CH3",
+      "description": ""
+    },
+    "HERBIE MK3": {
+      "anchor": "HERBIE_MK3_(Diezel_Herbert_MKIII)",
+      "description": "Diezel Herbert MKIII"
+    },
+    "HIPOWER BRILLIANT": {
+      "anchor": "HIPOWER_BRILLIANT_(Hiwatt_DR103)",
+      "description": "Hiwatt DR103"
+    },
+    "HIPOWER JUMPED": {
+      "anchor": "HIPOWER_JUMPED",
+      "description": ""
+    },
+    "HIPOWER NORMAL": {
+      "anchor": "HIPOWER_NORMAL",
+      "description": ""
+    },
+    "HOT KITTY": {
+      "anchor": "HOT_KITTY_(Bad_Cat_Hot_Cat_30)",
+      "description": "Bad Cat Hot Cat 30"
+    },
+    "JAZZ 120": {
+      "anchor": "JAZZ_120_(Roland_Jazz_Chorus_120)",
+      "description": "Roland Jazz Chorus 120"
+    },
+    "JMPRE-1 CLEAN 1": {
+      "anchor": "JMPRE-1_CLEAN_1_(Marshall_JMP-1_preamp)",
+      "description": "Marshall JMP-1 preamp"
+    },
+    "JMPRE-1 CLEAN 1 BASS SHIFT": {
+      "anchor": "JMPRE-1_CLEAN_1_BASS_SHIFT",
+      "description": ""
+    },
+    "JMPRE-1 CLEAN 2": {
+      "anchor": "JMPRE-1_CLEAN_2",
+      "description": ""
+    },
+    "JMPRE-1 CLEAN 2 BASS SHIFT": {
+      "anchor": "JMPRE-1_CLEAN_2_BASS_SHIFT",
+      "description": ""
+    },
+    "JMPRE-1 OD1": {
+      "anchor": "JMPRE-1_OD1",
+      "description": ""
+    },
+    "JMPRE-1 OD1 BASS SHIFT": {
+      "anchor": "JMPRE-1_OD1_BASS_SHIFT",
+      "description": ""
+    },
+    "JMPRE-1 OD2": {
+      "anchor": "JMPRE-1_OD2",
+      "description": ""
+    },
+    "JMPRE-1 OD2 BASS SHIFT": {
+      "anchor": "JMPRE-1_OD2_BASS_SHIFT",
+      "description": ""
+    },
+    "JR BLUES": {
+      "anchor": "JR_BLUES_(Fender_Blues_Junior)",
+      "description": "Fender Blues Junior"
+    },
+    "JR BLUES FAT": {
+      "anchor": "JR_BLUES_FAT",
+      "description": ""
+    },
+    "JS410 CRUNCH ORANGE": {
+      "anchor": "JS410_CRUNCH_ORANGE_(Joe_Satriani's_Marshall_JVM410HJS)",
+      "description": "Joe Satriani's Marshall JVM410HJS"
+    },
+    "JS410 CRUNCH RED": {
+      "anchor": "JS410_CRUNCH_RED",
+      "description": ""
+    },
+    "JS410 LEAD GREEN": {
+      "anchor": "JS410_LEAD_GREEN",
+      "description": ""
+    },
+    "JS410 LEAD ORANGE": {
+      "anchor": "JS410_LEAD_ORANGE",
+      "description": ""
+    },
+    "JS410 LEAD RED": {
+      "anchor": "JS410_LEAD_RED",
+      "description": ""
+    },
+    "LEGEND 100": {
+      "anchor": "LEGEND_100_(Steve_Vai's_Carvin_Legacy_VL100)",
+      "description": "Steve Vai's Carvin Legacy VL100"
+    },
+    "LEGEND 100 II": {
+      "anchor": "LEGEND_100_II_(Carvin_Legacy_VL300)",
+      "description": "Carvin Legacy VL300"
+    },
+    "MATCHBOX CHIEFTAIN 1": {
+      "anchor": "MATCHBOX_CHIEFTAIN_1_(Matchless_Chieftain)",
+      "description": "Matchless Chieftain"
+    },
+    "MATCHBOX CHIEFTAIN 2": {
+      "anchor": "MATCHBOX_CHIEFTAIN_2",
+      "description": ""
+    },
+    "MATCHBOX D-30": {
+      "anchor": "MATCHBOX_D-30_(Matchless_DC-30)",
+      "description": "Matchless DC-30"
+    },
+    "MATCHBOX D-30 EF86": {
+      "anchor": "MATCHBOX_D-30_EF86",
+      "description": ""
+    },
+    "MR Z HWY 66": {
+      "anchor": "MR_Z_HWY_66_(Dr._Z_Route_66)",
+      "description": "Dr. Z Route 66"
+    },
+    "MR Z MZ-38": {
+      "anchor": "MR_Z_MZ-38_(Dr._Z_Maz_38_SR)",
+      "description": "Dr. Z Maz 38 SR"
+    },
+    "MR Z MZ-8": {
+      "anchor": "MR_Z_MZ-8_(Dr._Z_Maz_8)",
+      "description": "Dr. Z Maz 8"
+    },
+    "NUCLEAR-TONE": {
+      "anchor": "NUCLEAR-TONE_(Swart_Atomic_Space_Tone)",
+      "description": "Swart Atomic Space Tone"
+    },
+    "ODS-100 CLEAN": {
+      "anchor": "ODS-100_CLEAN_(Dumble_Overdrive_Special)",
+      "description": "Dumble Overdrive Special"
+    },
+    "ODS-100 FORD": {
+      "anchor": "ODS-100_FORD",
+      "description": ""
+    },
+    "ODS-100 FORD PAB": {
+      "anchor": "ODS-100_FORD_PAB",
+      "description": ""
+    },
+    "ODS-100 FORD PAB MID": {
+      "anchor": "ODS-100_FORD_PAB_MID",
+      "description": ""
+    },
+    "ODS-100 HRM": {
+      "anchor": "ODS-100_HRM",
+      "description": ""
+    },
+    "ODS-100 HRM MID": {
+      "anchor": "ODS-100_HRM_MID",
+      "description": ""
+    },
+    "PLEXI 100W 1970": {
+      "anchor": "PLEXI_100W_1970_(1970_100W_Marshall_Plexi)",
+      "description": "1970 100W Marshall Plexi"
+    },
+    "PLEXI 100W HIGH": {
+      "anchor": "PLEXI_100W_HIGH_(1969_100W_Marshall_Plexi)",
+      "description": "1969 100W Marshall Plexi"
+    },
+    "PLEXI 100W JUMPED": {
+      "anchor": "PLEXI_100W_JUMPED",
+      "description": ""
+    },
+    "PLEXI 100W NORMAL": {
+      "anchor": "PLEXI_100W_NORMAL",
+      "description": ""
+    },
+    "PLEXI 2204": {
+      "anchor": "PLEXI_2204_(1981_50W_Marshall_JMP_2204)",
+      "description": "1981 50W Marshall JMP 2204"
+    },
+    "PLEXI 50W 6550": {
+      "anchor": "PLEXI_50W_6550_(1972_50W_Marshall_Plexi)",
+      "description": "1972 50W Marshall Plexi"
+    },
+    "PLEXI 50W 6CA7": {
+      "anchor": "PLEXI_50W_6CA7_(50W_Marshall_Plexi)",
+      "description": "50W Marshall Plexi"
+    },
+    "PLEXI 50W 6CA7 JUMPED": {
+      "anchor": "PLEXI_50W_6CA7_JUMPED",
+      "description": ""
+    },
+    "PLEXI 50W HIGH 1": {
+      "anchor": "PLEXI_50W_HIGH_1_(1967_50W_Marshall_Plexi)",
+      "description": "1967 50W Marshall Plexi"
+    },
+    "PLEXI 50W HIGH 2": {
+      "anchor": "PLEXI_50W_HIGH_2",
+      "description": ""
+    },
+    "PLEXI 50W JUMPED": {
+      "anchor": "PLEXI_50W_JUMPED",
+      "description": ""
+    },
+    "PLEXI 50W NORMAL": {
+      "anchor": "PLEXI_50W_NORMAL",
+      "description": ""
+    },
+    "PLEXI STUDIO 20": {
+      "anchor": "PLEXI_STUDIO_20_(Marshall_SV20H)",
+      "description": "Marshall SV20H"
+    },
+    "PORTA-BASS": {
+      "anchor": "PORTA-BASS_(Ampeg_Portaflex_bass_amp)",
+      "description": "Ampeg Portaflex bass amp"
+    },
+    "PRINCETONE 5F2": {
+      "anchor": "PRINCETONE_5F2_(Fender_Tweed_Princeton,_5F2-A)",
+      "description": "Fender Tweed Princeton, 5F2-A"
+    },
+    "PRINCETONE AA964": {
+      "anchor": "PRINCETONE_AA964_(silverface_Fender_Princeton_without_reverb,_AA964)",
+      "description": "silverface Fender Princeton without reverb, AA964"
+    },
+    "PRINCETONE REVERB": {
+      "anchor": "PRINCETONE_REVERB_(1966_blackface_Fender_Princeton_with_reverb,_AA964)",
+      "description": "1966 blackface Fender Princeton with reverb, AA964"
+    },
+    "PVH 6160 BLOCK": {
+      "anchor": "PVH_6160_BLOCK_(Peavey_&quot;Block_Letter&quot;_EVH_5150)",
+      "description": "Peavey \"Block Letter\" EVH 5150"
+    },
+    "PVH 6160 BLOCK CRUNCH": {
+      "anchor": "PVH_6160_BLOCK_CRUNCH",
+      "description": ""
+    },
+    "PVH 6160+ CLEAN": {
+      "anchor": "PVH_6160+_CLEAN_(Peavey_6505+_/_EVH_5150-II)",
+      "description": "Peavey 6505+ / EVH 5150-II"
+    },
+    "PVH 6160+ CLEAN BRIGHT": {
+      "anchor": "PVH_6160+_CLEAN_BRIGHT",
+      "description": ""
+    },
+    "PVH 6160+ CRUNCH": {
+      "anchor": "PVH_6160+_CRUNCH",
+      "description": ""
+    },
+    "PVH 6160+ CRUNCH BRIGHT": {
+      "anchor": "PVH_6160+_CRUNCH_BRIGHT",
+      "description": ""
+    },
+    "PVH 6160+ LEAD": {
+      "anchor": "PVH_6160+_LEAD",
+      "description": ""
+    },
+    "RECTO1 ORANGE MODERN": {
+      "anchor": "RECTO1_ORANGE_MODERN_(MESA_Dual_Rectifier,_2_channels)",
+      "description": "MESA Dual Rectifier, 2 channels"
+    },
+    "RECTO1 ORANGE NORMAL": {
+      "anchor": "RECTO1_ORANGE_NORMAL",
+      "description": ""
+    },
+    "RECTO1 RED": {
+      "anchor": "RECTO1_RED",
+      "description": ""
+    },
+    "RECTO2 ORANGE MODERN": {
+      "anchor": "RECTO2_ORANGE_MODERN_(MESA_Dual_Rectifier,_3_channels)",
+      "description": "MESA Dual Rectifier, 3 channels"
+    },
+    "RECTO2 ORANGE VINTAGE": {
+      "anchor": "RECTO2_ORANGE_VINTAGE",
+      "description": ""
+    },
+    "RECTO2 RED MODERN": {
+      "anchor": "RECTO2_RED_MODERN",
+      "description": ""
+    },
+    "RECTO2 RED VINTAGE": {
+      "anchor": "RECTO2_RED_VINTAGE",
+      "description": ""
+    },
+    "REVV GEN GREEN 1": {
+      "anchor": "REVV_GEN_GREEN_1_(REVV_GENERATOR_120_MKIII)",
+      "description": "REVV GENERATOR 120 MKIII"
+    },
+    "REVV GEN GREEN 2": {
+      "anchor": "REVV_GEN_GREEN_2",
+      "description": ""
+    },
+    "REVV GEN GREEN 3": {
+      "anchor": "REVV_GEN_GREEN_3",
+      "description": ""
+    },
+    "REVV GEN PURPLE 1": {
+      "anchor": "REVV_GEN_PURPLE_1",
+      "description": ""
+    },
+    "REVV GEN PURPLE 2": {
+      "anchor": "REVV_GEN_PURPLE_2",
+      "description": ""
+    },
+    "REVV GEN PURPLE 3": {
+      "anchor": "REVV_GEN_PURPLE_3",
+      "description": ""
+    },
+    "REVV GEN RED 1": {
+      "anchor": "REVV_GEN_RED_1",
+      "description": ""
+    },
+    "REVV GEN RED 2": {
+      "anchor": "REVV_GEN_RED_2",
+      "description": ""
+    },
+    "REVV GEN RED 3": {
+      "anchor": "REVV_GEN_RED_3",
+      "description": ""
+    },
+    "RUBY ROCKET": {
+      "anchor": "RUBY_ROCKET_(Paul_Ruby_Rocket)",
+      "description": "Paul Ruby Rocket"
+    },
+    "RUBY ROCKET BRIGHT": {
+      "anchor": "RUBY_ROCKET_BRIGHT",
+      "description": ""
+    },
+    "SHIVER CLEAN": {
+      "anchor": "SHIVER_CLEAN_(Bogner_Shiva_20th_Anniversary)",
+      "description": "Bogner Shiva 20th Anniversary"
+    },
+    "SHIVER LEAD": {
+      "anchor": "SHIVER_LEAD",
+      "description": ""
+    },
+    "SOLO 88 CLEAN": {
+      "anchor": "SOLO_88_CLEAN_(Soldano_X88R_preamp)",
+      "description": "Soldano X88R preamp"
+    },
+    "SOLO 88 LEAD": {
+      "anchor": "SOLO_88_LEAD",
+      "description": ""
+    },
+    "SOLO 88 RHYTHM": {
+      "anchor": "SOLO_88_RHYTHM",
+      "description": ""
+    },
+    "SOLO 99 CLEAN": {
+      "anchor": "SOLO_99_CLEAN_(Soldano/Caswell_X99_preamp)",
+      "description": "Soldano/Caswell X99 preamp"
+    },
+    "SOLO 99 LEAD": {
+      "anchor": "SOLO_99_LEAD",
+      "description": ""
+    },
+    "SOLO 99 LEAD BRIGHT": {
+      "anchor": "SOLO_99_LEAD_BRIGHT",
+      "description": ""
+    },
+    "SOLO 100 CLEAN": {
+      "anchor": "SOLO_100_CLEAN_(Soldano_SLO-100)",
+      "description": "Soldano SLO-100"
+    },
+    "SOLO 100 LEAD": {
+      "anchor": "SOLO_100_LEAD",
+      "description": ""
+    },
+    "SOLO 100 RHYTHM": {
+      "anchor": "SOLO_100_RHYTHM",
+      "description": ""
+    },
+    "SPAWN NITROUS 1": {
+      "anchor": "SPAWN_NITROUS_1_(Splawn_Nitro)",
+      "description": "Splawn Nitro"
+    },
+    "SPAWN NITROUS 2": {
+      "anchor": "SPAWN_NITROUS_2",
+      "description": ""
+    },
+    "SPAWN Q-ROD OD1-1": {
+      "anchor": "SPAWN_Q-ROD_OD1-1_(Splawn_Quickrod)",
+      "description": "Splawn Quickrod"
+    },
+    "SPAWN Q-ROD OD1-2": {
+      "anchor": "SPAWN_Q-ROD_OD1-2",
+      "description": ""
+    },
+    "SPAWN Q-ROD OD1-3": {
+      "anchor": "SPAWN_Q-ROD_OD1-3",
+      "description": ""
+    },
+    "SPAWN Q-ROD OD2-1": {
+      "anchor": "SPAWN_Q-ROD_OD2-1",
+      "description": ""
+    },
+    "SPAWN Q-ROD OD2-2": {
+      "anchor": "SPAWN_Q-ROD_OD2-2",
+      "description": ""
+    },
+    "SPAWN Q-ROD OD2-3": {
+      "anchor": "SPAWN_Q-ROD_OD2-3",
+      "description": ""
+    },
+    "SUHR BADGER 18": {
+      "anchor": "SUHR_BADGER_18_(Suhr_Badger_18)",
+      "description": "Suhr Badger 18"
+    },
+    "SUHR BADGER 30": {
+      "anchor": "SUHR_BADGER_30_(Suhr_Badger_30)",
+      "description": "Suhr Badger 30"
+    },
+    "SUPER VERB NORMAL": {
+      "anchor": "SUPER_VERB_NORMAL_(1964_Fender_Super_Reverb,_AB763)",
+      "description": "1964 Fender Super Reverb, AB763"
+    },
+    "SUPER VERB VIBRATO": {
+      "anchor": "SUPER_VERB_VIBRATO",
+      "description": ""
+    },
+    "SUPERTWEED": {
+      "anchor": "SUPERTWEED_(custom_model)",
+      "description": "custom model"
+    },
+    "SUPREMO TREM": {
+      "anchor": "SUPREMO_TREM_(Supro_1964T)",
+      "description": "Supro 1964T"
+    },
+    "SUPRO BLACK MAGICK": {
+      "anchor": "SUPRO_BLACK_MAGICK_(Supro_1695T_Black_Magick)",
+      "description": "Supro 1695T Black Magick"
+    },
+    "SV BASS 1": {
+      "anchor": "SV_BASS_1_(Ampeg_SVT_bass_amp)",
+      "description": "Ampeg SVT bass amp"
+    },
+    "SV BASS 2": {
+      "anchor": "SV_BASS_2",
+      "description": ""
+    },
+    "TEXAS STAR CLEAN": {
+      "anchor": "TEXAS_STAR_CLEAN_(MESA_Lone_Star_Classic)",
+      "description": "MESA Lone Star Classic"
+    },
+    "TEXAS STAR LEAD": {
+      "anchor": "TEXAS_STAR_LEAD",
+      "description": ""
+    },
+    "THORDENDAL MODERN": {
+      "anchor": "THORDENDAL_MODERN_(custom_model_of_MESA_Dual_Rectifier)",
+      "description": "custom model of MESA Dual Rectifier"
+    },
+    "THORDENDAL VINTAGE": {
+      "anchor": "THORDENDAL_VINTAGE",
+      "description": ""
+    },
+    "TREMOLO LUX": {
+      "anchor": "TREMOLO_LUX_(blackface_Fender_Tremolux,_AA763)",
+      "description": "blackface Fender Tremolux, AA763"
+    },
+    "TRIPLE CREST 2": {
+      "anchor": "TRIPLE_CREST_2_(MESA_Triple_Crown_TC-100)",
+      "description": "MESA Triple Crown TC-100"
+    },
+    "TRIPLE CREST 3": {
+      "anchor": "TRIPLE_CREST_3",
+      "description": ""
+    },
+    "TUBE PRE": {
+      "anchor": "TUBE_PRE_(generic_tube_preamp_model)",
+      "description": "generic tube preamp model"
+    },
+    "TWO STONE J35": {
+      "anchor": "TWO_STONE_J35_(Two-Rock_Jet_35)",
+      "description": "Two-Rock Jet 35"
+    },
+    "TWO STONE J35 PAB": {
+      "anchor": "TWO_STONE_J35_PAB",
+      "description": ""
+    },
+    "USA BASS 400 1": {
+      "anchor": "USA_BASS_400_1_(MESA_Bass_400_bass_amp)",
+      "description": "MESA Bass 400 bass amp"
+    },
+    "USA BASS 400 2": {
+      "anchor": "USA_BASS_400_2",
+      "description": ""
+    },
+    "USA JP IIC+ GREEN": {
+      "anchor": "USA_JP_IIC+_GREEN_(MESA/Boogie_JP-2C)",
+      "description": "MESA/Boogie JP-2C"
+    },
+    "USA JP IIC+ RED": {
+      "anchor": "USA_JP_IIC+_RED",
+      "description": ""
+    },
+    "USA JP IIC+ RED SHRED": {
+      "anchor": "USA_JP_IIC+_RED_SHRED",
+      "description": ""
+    },
+    "USA JP IIC+ YELLOW": {
+      "anchor": "USA_JP_IIC+_YELLOW",
+      "description": ""
+    },
+    "USA JP IIC+ YELLOW SHRED": {
+      "anchor": "USA_JP_IIC+_YELLOW_SHRED",
+      "description": ""
+    },
+    "USA METRO BLUES": {
+      "anchor": "USA_METRO_BLUES_(MESA_Subway_Blues)",
+      "description": "MESA Subway Blues"
+    },
+    "USA MK IIC+": {
+      "anchor": "USA_MK_IIC+_(MESA/Boogie_Mark_IIC+)",
+      "description": "MESA/Boogie Mark IIC+"
+    },
+    "USA MK IIC+ BRIGHT": {
+      "anchor": "USA_MK_IIC+_BRIGHT",
+      "description": ""
+    },
+    "USA MK IIC+ DEEP": {
+      "anchor": "USA_MK_IIC+_DEEP",
+      "description": ""
+    },
+    "USA MK IIC+ DEEP BRIGHT": {
+      "anchor": "USA_MK_IIC+_DEEP_BRIGHT",
+      "description": ""
+    },
+    "USA MK IIC++": {
+      "anchor": "USA_MK_IIC++_(custom_model_of_MESA/Boogie_IIC+)",
+      "description": "custom model of MESA/Boogie IIC+"
+    },
+    "USA MK IV LEAD/RHYTHM": {
+      "anchor": "USA_MK_IV_LEAD_/_RHYTHM_(MESA/Boogie_Mark_IV)",
+      "description": "MESA/Boogie Mark IV"
+    },
+    "USA MK IV LEAD BRIGHT": {
+      "anchor": "USA_MK_IV_LEAD_BRIGHT",
+      "description": ""
+    },
+    "USA MK IV LEAD MID GAIN": {
+      "anchor": "USA_MK_IV_LEAD_MID_GAIN",
+      "description": ""
+    },
+    "USA MK IV LEAD MID GAIN BRIGHT": {
+      "anchor": "USA_MK_IV_LEAD_MID_GAIN_BRIGHT",
+      "description": ""
+    },
+    "USA MK IV RHYTHM 1": {
+      "anchor": "USA_MK_IV_RHYTHM_1",
+      "description": ""
+    },
+    "USA MK IV RHYTHM 2": {
+      "anchor": "USA_MK_IV_RHYTHM_2",
+      "description": ""
+    },
+    "USA MK V GREEN": {
+      "anchor": "USA_MK_V_GREEN_(MESA/Boogie_Mark_V)",
+      "description": "MESA/Boogie Mark V"
+    },
+    "USA MK V RED IIC+": {
+      "anchor": "USA_MK_V_RED_IIC+",
+      "description": ""
+    },
+    "USA MK V RED IIC+ BRIGHT": {
+      "anchor": "USA_MK_V_RED_IIC+_Bright",
+      "description": ""
+    },
+    "USA MK V RED MKIV": {
+      "anchor": "USA_MK_V_RED_MKIV",
+      "description": ""
+    },
+    "USA MK V RED MKIV BRIGHT": {
+      "anchor": "USA_MK_V_RED_MKIV_Bright",
+      "description": ""
+    },
+    "USA MK V RED XT": {
+      "anchor": "USA_MK_V_RED_XT",
+      "description": ""
+    },
+    "USA MK V RED XT BRIGHT": {
+      "anchor": "USA_MK_V_RED_XT_Bright",
+      "description": ""
+    },
+    "USA PRE CLEAN": {
+      "anchor": "USA_PRE_CLEAN_(MESA_TriAxis_preamp)",
+      "description": "MESA TriAxis preamp"
+    },
+    "USA PRE LD1 RED": {
+      "anchor": "USA_PRE_LD1_RED",
+      "description": ""
+    },
+    "USA PRE LD2 GREEN": {
+      "anchor": "USA_PRE_LD2_GREEN",
+      "description": ""
+    },
+    "USA PRE LD2 RED": {
+      "anchor": "USA_PRE_LD2_RED",
+      "description": ""
+    },
+    "USA PRE LD2 YELLOW": {
+      "anchor": "USA_PRE_LD2_YELLOW",
+      "description": ""
+    },
+    "VIBRA-KING": {
+      "anchor": "VIBRA-KING_(custom_Fender_Vibro-King)",
+      "description": "custom Fender Vibro-King"
+    },
+    "VIBRA-KING FAT": {
+      "anchor": "VIBRA-KING_FAT",
+      "description": ""
+    },
+    "VIBRATO LUX": {
+      "anchor": "VIBRATO_LUX_(1962/1963_brownface_Fender_Vibrolux,_6G11)",
+      "description": "1962/1963 brownface Fender Vibrolux, 6G11"
+    },
+    "VIBRATO VERB": {
+      "anchor": "VIBRATO_VERB_(Fender_Vibroverb,_old_model)",
+      "description": "Fender Vibroverb, old model"
+    },
+    "VIBRATO VERB AA": {
+      "anchor": "VIBRATO_VERB_AA_(1964_blackface_Fender_Vibroverb,_AA763)",
+      "description": "1964 blackface Fender Vibroverb, AA763"
+    },
+    "VIBRATO VERB AB": {
+      "anchor": "VIBRATO_VERB_AB_(Fender_Vibroverb,_AB763)",
+      "description": "Fender Vibroverb, AB763"
+    },
+    "VIBRATO VERB SRV": {
+      "anchor": "VIBRATO_VERB_SRV_(Fender_Vibroverb_Custom_Reissue)",
+      "description": "Fender Vibroverb Custom Reissue"
+    },
+    "WRECKER EXPRESS": {
+      "anchor": "WRECKER_EXPRESS_(Trainwreck_Express)",
+      "description": "Trainwreck Express"
+    },
+    "WRECKER EXPRESS BRIGHT": {
+      "anchor": "WRECKER_EXPRESS_BRIGHT",
+      "description": ""
+    },
+    "WRECKER LIVERPOOL": {
+      "anchor": "WRECKER_LIVERPOOL_(Trainwreck_Liverpool)",
+      "description": "Trainwreck Liverpool"
+    },
+    "WRECKER LIVERPOOL BRIGHT": {
+      "anchor": "WRECKER_LIVERPOOL_BRIGHT",
+      "description": ""
+    },
+    "WRECKER ROCKET": {
+      "anchor": "WRECKER_ROCKET_(Trainwreck_Rocket)",
+      "description": "Trainwreck Rocket"
+    }
+  }
 }

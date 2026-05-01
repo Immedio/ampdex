@@ -45,11 +45,24 @@ def extract_amps(html: str) -> list[dict]:
     # Non-amp H2s on the wiki page that should be skipped
     skip = {"contents", "navigation menu", "personal tools", "namespaces", "views"}
     for m in re.finditer(r"<h2[^>]*>(.*?)</h2>", html, re.DOTALL):
-        raw = re.sub(r"<[^>]+>", "", m.group(1)).strip()
+        block = m.group(1)
+        raw = re.sub(r"<[^>]+>", "", block).strip()
         # Strip MediaWiki [edit] suffix if present
         raw = re.sub(r"\s*\[\s*edit\s*\]\s*$", "", raw, flags=re.I)
         if not raw or raw.lower() in skip:
             continue
+        # Prefer the modern HTML5 anchor (first span, no dot encoding); fall back
+        # to the legacy mw-headline span which is always present.
+        anchor = ""
+        m_modern = re.search(r'<span[^>]*\sid="([^"]+)"[^>]*></span>', block)
+        if m_modern:
+            anchor = m_modern.group(1)
+        else:
+            m_legacy = re.search(
+                r'<span[^>]*class="mw-headline"[^>]*\sid="([^"]+)"', block,
+            )
+            if m_legacy:
+                anchor = m_legacy.group(1)
         # Split "NAME (description)" — outer parens only
         desc_match = re.match(r"^([^()]+?)\s*\((.+)\)\s*$", raw)
         if desc_match:
@@ -62,7 +75,7 @@ def extract_amps(html: str) -> list[dict]:
         if key in seen:
             continue
         seen.add(key)
-        amps.append({"name": name, "description": description})
+        amps.append({"name": name, "description": description, "anchor": anchor})
     return amps
 
 
@@ -112,6 +125,16 @@ def main() -> int:
         [a["name"] for a in guide_amps if normalize(a["name"]) not in wiki_names],
     )
 
+    # Anchor & description map keyed by normalized guide name
+    entries: dict[str, dict] = {}
+    for w in wiki_amps:
+        key = normalize(w["name"])
+        if w.get("anchor") or w.get("description"):
+            entries[key] = {
+                "anchor": w.get("anchor", ""),
+                "description": w.get("description", ""),
+            }
+
     status = {
         "fetchedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source": WIKI_URL,
@@ -119,6 +142,7 @@ def main() -> int:
         "wikiCount": len(wiki_amps),
         "wikiOnly": wiki_only,
         "guideOnly": guide_only,
+        "entries": entries,
     }
 
     # Pretty-print, stable order

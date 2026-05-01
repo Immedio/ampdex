@@ -343,6 +343,24 @@ kbd {
   letter-spacing: 0.04em;
 }
 
+.wiki-link {
+  display: inline-block;
+  margin-top: 0.625rem;
+  font-family: 'Geist Mono', ui-monospace, monospace;
+  font-size: 0.6875rem;
+  color: var(--ink);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: underline;
+  text-underline-offset: 0.1875rem;
+}
+
+.wiki-link:hover {
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+}
+
 mark {
   background: var(--mark-bg);
   color: var(--mark-fg);

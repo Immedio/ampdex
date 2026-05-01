@@ -17,6 +17,32 @@ type Amp = {
   aliases: string;
 };
 
+type WikiEntry = { anchor: string; description: string };
+
+const WIKI_BASE = 'https://wiki.fractalaudio.com/wiki/index.php?title=Amp_models_list';
+
+function normalizeWikiKey(s: string): string {
+  let out = s
+    .toUpperCase()
+    .replace(/[‘’]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/[–—]/g, '-');
+  out = out.replace(/^'+/, '');
+  out = out.replace(/\s*([\/\-])\s*/g, '$1');
+  return out.replace(/\s+/g, ' ').trim();
+}
+
+function wikiEntryFor(name: string): WikiEntry | null {
+  const entries = (wikiStatus as { entries?: Record<string, WikiEntry> }).entries;
+  if (!entries) return null;
+  return entries[normalizeWikiKey(name)] ?? null;
+}
+
+function wikiUrlFor(name: string): string {
+  const e = wikiEntryFor(name);
+  return e?.anchor ? `${WIKI_BASE}#${encodeURIComponent(e.anchor).replace(/'/g, '%27')}` : WIKI_BASE;
+}
+
 type AliasRule = { match: RegExp; aliases: string[] };
 
 const ALIAS_RULES: AliasRule[] = [
@@ -449,7 +475,9 @@ export default function App() {
                         <div className="num">{a.num}</div>
                         <div className="meta">
                           <div className="name">{a.name}</div>
-                          <div className="loc">page {a.printedPage}</div>
+                          {wikiEntryFor(a.name)?.description && (
+                            <div className="loc">{wikiEntryFor(a.name)!.description}</div>
+                          )}
                         </div>
                       </li>
                     );
@@ -664,7 +692,17 @@ function DetailView({
         <div>
           <div className="kicker">Amp · {a.num}</div>
           <h2>{a.name}</h2>
-          <div className="sub">printed page {a.printedPage}</div>
+          {wikiEntryFor(a.name)?.description && (
+            <div className="sub">{wikiEntryFor(a.name)!.description}</div>
+          )}
+          <a
+            className="wiki-link"
+            href={wikiUrlFor(a.name)}
+            target="_blank"
+            rel="noreferrer"
+          >
+            see on Fractal Wiki ↗
+          </a>
         </div>
       </header>
 
